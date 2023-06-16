@@ -4,7 +4,7 @@ import functions
 import time
 
 cur_date_time = time.strftime("%B %d %Y, %H:%M:%S")
-print(cur_date_time)
+print("It is,", cur_date_time)
 
 while True:
     # Get user input, strip spaces and convert to lowercase
